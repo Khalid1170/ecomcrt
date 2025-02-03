@@ -15,5 +15,4 @@ A simple shopping cart app built with React that allows users to view products, 
 - React
 - JavaScript
 - CSS
-# ecomcart2
-# ecomcart2
+
