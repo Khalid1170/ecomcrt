@@ -7,11 +7,11 @@ const Cart = ({ cartItems, onRemoveItem, onClearCart }) => {
   return (
     <div className="cart-container">
       <h2>Your Cart</h2>
-      <ul className="cart-list">
+      <ul className="list">
         {cartItems.map(item => (
-          <li key={item.id} className="cart-item">
+          <li key={item.id} className="item">
             <p>{item.name} - £{item.price} x {item.quantity}</p>
-            <button className="remove-btn" onClick={() => onRemoveItem(item.id)}>Remove</button>
+            <button className="btn" onClick={() => onRemoveItem(item.id)}>Remove</button>
           </li>
         ))}
       </ul>
